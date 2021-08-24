@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor || Number Five</title>
+    <!-- bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- custom style -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        .textAllStyle {
+            background-image: url(./images/bg-curvy-desktop.svg);
+            /* height: 100vh;         */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 8%;
+            position: relative;
+            overflow: hidden;
+            border-bottom: transparent;
+            height: 400px;
+        }
+
+        .textAllStyle::after {
+            background-size: contain;
+            position: absolute;
+            width: 100%;
+            background-image: initial;
+            background-color: lawngreen;
+
+
+        }
+    </style>
+</head>
+
+<body style="background-color: hsl(217,28%,15%);">
+    <header>
+        <nav class=" navbar navbar-expand-lg navbar-dark "
+            style=" background-color: hsl(217,28%,15%);margin-top: 30px;margin-left: 10px;">
+            <div class="container ">
+                <div>
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="./images/logo.svg" alt="" width="80px" class="d-inline-block align-text-top">
+
+                    </a>
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Sign In</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="sectionIntro">
+                <img class="introImage" src="./images/illustration-intro.png" alt="">
+
+            </div>
+            <div class="textAllStyle">
+                <h1 class="allTextHeader fs-2">All your files in one secure location,<br>
+                    accessible anywhere.</h1>
+                <p class="paragText text-white-50">
+                    Fylo stores all your most important files in one secure location. <br> Access them wherever you
+                    need,share and collaborate with<br> friends family, and co-workers.
+                </p>
+                <button class="button rounded-pill">Get Started</button>
+
+            </div>
+
+        </section>
+        <div class="container0 my-4">
+            <div class="container1">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                    <div style="text-align: center;" class="col">
+                        <div style="background-color: hsl(218,28%,13%);align-items: center;border-color: hsl(218,28%,13%);"
+                            class="card ">
+                            <img style="width: 100px;background-color:hsl(218,28%,13%)"
+                                src="./images/icon-access-anywhere.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="color: whitesmoke;" class="card-title ">Access your files,anywhere</h5>
+                                <p class="card-text text-white-50">This is a longer card with supporting text below as a
+                                    natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;" class="col">
+                        <div style="background-color: hsl(218,28%,13%); align-items: center;border-color: hsl(218,28%,13%);"
+                            class="card">
+                            <img style="width: 100px;background-color:hsl(218,28%,13%)" src="./images/icon-security.svg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="color: whitesmoke;" class="card-title">Security you can trust</h5>
+                                <p class="card-text text-white-50">2-factor authentication and user-controlled
+                                    encryption are just a couple of the security features we allow to help secure your
+                                    files</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;" class="col">
+                        <div style="background-color: hsl(218,28%,13%); align-items: center;border-color: hsl(218,28%,13%);"
+                            class="card">
+                            <img style="width: 100px;background-color:hsl(218,28%,13%)"
+                                src="./images/icon-collaboration.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="color: whitesmoke;" class="card-title">Real-time collaboration</h5>
+                                <p class="card-text text-white-50">Securely share files and folders with friends,family
+                                    and colleagues for live collaboration.No email attachments required.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;" class="col ">
+                        <div style="background-color: hsl(218,28%,13%); align-items: center;border-color: hsl(218,28%,13%);"
+                            class="card">
+                            <img style="width: 100px;background-color:hsl(218,28%,13%)" src="./images/icon-any-file.svg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="color: whitesmoke;" class="card-title">Access your files,anywhere</h5>
+                                <p class="card-text text-white-50">The ability to use a smartphone,tablet,or computer to
+                                    access your account means your files follow you everywhere</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+       
+
+    </main>
+    
+
+</body>
+
+</html>
