@@ -85,3 +85,92 @@
     
    
 }
+.productive{
+    margin-top: 100px;
+}
+.productive1{
+    margin-top: 120px;
+}
+.stayStyle{
+    font-size: 30px;
+}
+.seeTextStyle{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #4BDADA;
+}
+.cardStyle{
+    background-color: hsl(217,28%,15%);
+    margin: 30px;
+
+}
+.improved{
+    margin: 30px;
+}
+.imageStyle{
+    margin-left: 15px;
+}
+.textStyle{
+    margin-left: -90px;
+}
+.staishText{
+    font-size: 10px;
+}
+.ownerText{
+    font-size: 6px;
+}
+.container4{
+    margin-bottom:200px ;
+}
+.container4{
+    margin-top: 80px;
+    background-color: hsl(217,28%,15%);
+}
+.container5{
+    margin-top: -40px;
+}
+.accesTodayTextStyle{
+    text-align: center;
+    margin-top: 20px;
+}
+.textStyle2{
+    margin-left: 25%;
+}
+.firstStyle{
+    width: 150%;
+    border-radius: 10px;
+    border-color: white;
+}
+.firsStyle2{
+  
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    width: 100%;
+    border-color: cornflowerblue;
+}
+/* .gamilStyle{
+    border-radius: 10px;
+} */
+.container6{
+   margin-left: 10%;
+}
+.number{
+    margin-left: 10px;
+}
+.seond{
+    margin-left: 10%;
+}
+.third{
+    margin-left: 10%;
+}
+.fith{
+    margin-left: 10%;
+}
+.facebookStyle{
+    border-radius: 30px;
+    color: white;
+    
+}
+.facebook{
+    margin-left: 7px;
+}
